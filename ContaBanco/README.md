@@ -1,18 +1,34 @@
-## Getting Started
+# 💳 ContaBanco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Status](https://img.shields.io/badge/status-concluído-success?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
-## Folder Structure
+## 📖 Sobre o Projeto
 
-The workspace contains two folders by default, where:
+O **ContaBanco** é um projeto simples desenvolvido em Java com o objetivo de praticar conceitos fundamentais da linguagem, como entrada de dados via terminal, manipulação de variáveis e concatenação de strings.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O sistema simula a criação de uma conta bancária, solicitando informações do usuário e exibindo uma mensagem personalizada ao final.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 Funcionalidades
 
-## Dependency Management
+- 📥 Entrada de dados via terminal
+- 🧾 Coleta de informações do usuário:
+  - Número da conta
+  - Agência
+  - Nome do cliente
+  - Saldo
+- 📤 Exibição de mensagem personalizada
+- 🔗 Uso de concatenação de Strings
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Java**
+- Classe **Scanner** para entrada de dados
+- Manipulação de **Strings**
+
+---

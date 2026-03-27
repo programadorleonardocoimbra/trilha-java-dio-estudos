@@ -8,8 +8,8 @@ public class ContaTerminal {
         // Declaração das variáveis
         int numero;
         String agencia;
-        String nomeCliente;
-        double saldo;
+        String nomeCliente = "MARIO ANDRADE";
+        double saldo = 237.48;
 
         // Entrada de dados
         System.out.println("Por favor, digite o número da Conta:");
@@ -19,13 +19,8 @@ public class ContaTerminal {
         scanner.nextLine(); // limpar buffer
         agencia = scanner.nextLine();
 
-        System.out.println("Por favor, digite o nome do Cliente:");
-        nomeCliente = scanner.nextLine();
 
-        System.out.println("Por favor, digite o saldo:");
-        saldo = scanner.nextDouble();
-
-        // Saída formatada usando concatenação
+        // Saída usando concatenação
         String mensagem = "Olá ".concat(nomeCliente)
                 .concat(", obrigado por criar uma conta em nosso banco, sua agência é ")
                 .concat(agencia)
