@@ -16,10 +16,10 @@ O sistema simula a criação de uma conta bancária, solicitando informações d
 
 - 📥 Entrada de dados via terminal;
 - 🧾 Coleta de informações do usuário:
-  -> Número da conta;
-  -> Agência;
-  -> Nome do cliente;
-  -> Saldo;
+  - Número da conta;
+  - Agência;
+  - Nome do cliente;
+  - Saldo;
   
 - 📤 Exibição de mensagem personalizada;
 - 🔗 Uso de concatenação de Strings;
